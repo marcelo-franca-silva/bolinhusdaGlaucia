@@ -1,0 +1,160 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border-left: 10px solid #fa6289;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fa6289;
+}
+
+
+.hero-section {
+    background: url('img/cup-cake.jpeg') right/cover no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.hero-section .btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: #fa6289;
+    border-color: #fa6289;
+    color: #000;
+}
+
+
+
+.sobremae{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+line-height: 30px;
+}
+
+.sobremae p{
+font-size: 18px;
+}
+
+.p1{
+border-left: 3px solid #fa6289;
+border-bottom: 3px solid #fa6289;
+border-radius: 10px;
+}
+
+.p2{
+    border-right: 3px solid #fa6289;
+    border-bottom: 3px solid #fa6289; 
+    border-radius: 10px;
+}
+
+.badge-primary{
+    background: #fa6289;
+}
+
+
+.badge badge-primary badge-pill{
+   background-color: #fa6289;
+}
+
+
+#menu h2 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+.image-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.container-mn{
+  margin-bottom: -40px;
+ }
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+#contato{
+   border-top: 3px solid #fa6289;
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+#contato i {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .sobremae{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .img-mae{
+        width: 350px ;
+        height: 300px;
+    }
+}
+
+@media (max-width: 430px) {
+    .img-mae{
+        width: 300px ;
+        height: 300px;
+    }
+}
+
+
+
+
